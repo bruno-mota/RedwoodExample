@@ -26,14 +26,3 @@ export const standard = defineScenario({
     },
   },
 })
-
-export const postOnly = defineScenario({
-  post: {
-    bark: {
-      data: {
-        title: 'Bark',
-        body: "A tree's bark is worse than its bite",
-      },
-    },
-  },
-})
